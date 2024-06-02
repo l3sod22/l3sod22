@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Form validation</title>
+	<style>
+		.error{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<form id="registarationForm"onsubmit="return validateForm()">
+		<div>
+			<label> for="username">username:</label>
+			<input type="text"id="username=">name="username">
+			<span id ="usernameError"class="error">
+			</span>
+		</div>
+		<div>
+			<laber for="passward">passward:</laber>
+			<input type="passward" id="password" name="passward">
+			<span id="passward error">class="Error"></span>
+		</div>
+		<button type="submit">register</button>
+</form>
+	<script src="script.js"></script>
+</body>
+</html>
+</form>
+			
+			</span>
+		</div>
+
+</body>
